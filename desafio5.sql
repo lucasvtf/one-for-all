@@ -1,4 +1,5 @@
-SELECT m.nome_musica AS cancao,
+SELECT 
+  m.nome_musica AS cancao,
   COUNT(h.musica_id) AS reproducoes
 FROM
   SpotifyClone.musicas AS m
